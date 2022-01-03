@@ -11,10 +11,13 @@ public class Femme extends PersonneAbstraite {
 		this.nombreAccouchement = nombreAccouchement;
 	}
 
-
-
 	@Override
-	public String sePresenter() {
+	public void sePresenter() {
+		System.out.println("Bonjour je m'appelle " + getNom() + " je suis une femme ");
+	}
+
+	
+	public String sePresenter2() {
 		return "Bonjour je m'appelle " + getNom() + " je suis une femme ";
 	}
 

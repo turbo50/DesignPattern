@@ -13,8 +13,8 @@ public class TestFactory {
 	@BeforeEach
 	public void setUp() {
 		fab = new Fabrique();
-		h = (Homme) fab.creer(Homme.class);
-		f = (Femme) fab.creer(Femme.class);
+		h = fab.creer(Homme.class);
+		f = fab.creer(Femme.class);
 	}
 	
 	@Test
@@ -26,7 +26,5 @@ public class TestFactory {
 	@Test
 	public void test_fabriqueOk2() {
 		assertTrue(f instanceof Femme);
-	}
-	
-	
+	}	
 }

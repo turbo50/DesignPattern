@@ -1,5 +1,5 @@
 package factory;
 
 public interface IFabrique{
-	public PersonneAbstraite creer(Class<?> c);
+	public <T extends PersonneAbstraite> T creer (Class<T> c);
 }

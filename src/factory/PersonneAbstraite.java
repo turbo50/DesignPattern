@@ -38,5 +38,14 @@ public abstract class PersonneAbstraite {
 
 
 
-	public abstract  String sePresenter();
+	public abstract  void sePresenter();
+
+
+
+	@Override
+	public String toString() {
+		return "PersonneAbstraite [id=" + id + ", nom=" + nom + "]";
+	}
+	
+	
 }

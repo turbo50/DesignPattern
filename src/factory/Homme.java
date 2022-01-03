@@ -11,9 +11,13 @@ public class Homme extends PersonneAbstraite {
 	}
 
 
-	@Override
-	public String sePresenter() {
+	
+	public String sePresenter2() {
 		return "Bonjour je m'appelle " + getNom() + " je suis un homme ";
+	}
+	@Override
+	public void sePresenter() {
+		System.out.println("Bonjour je m'appelle " + getNom() + " je suis un homme ");
 	}
 
 }
