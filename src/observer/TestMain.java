@@ -17,6 +17,7 @@ public class TestMain {
 		m.add(af);
 		m.setDonneeMeteorologique((short) 15, " Paris 75019 ");
 		m.setDonneeMeteorologique((short) 8, " Paris 75008 ");
+		m.setDonneeMeteorologique((short) 7, " Paris 75008 ");
 		
 	}
 	
