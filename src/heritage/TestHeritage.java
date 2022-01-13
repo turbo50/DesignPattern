@@ -2,7 +2,9 @@ package heritage;
 
 import java.time.LocalDate;
 import java.time.Month;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import factory.Homme;
 import factory.PersonneAbstraite;
@@ -33,7 +35,8 @@ public class TestHeritage {
 		l_all.forEach(p -> p.sePresenter());
 		*/
 		List<Divorce> liste = List.of(d1, d2);
-		Test1.presentation2(liste);
+		Map<String, String> m = new HashMap<String, String>(); m.put("k", "k");
+		Test1.presentation3(m.values());
 	}
 
 };
